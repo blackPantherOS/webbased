@@ -13,4 +13,4 @@ License - GPL3
 
 Screenshot
 ----------
-![mediarent](https://raw.githubusercontent.com/blackPantherOS/webbased/master/MediaRent/images/mediarent.jpg
+![mediarent](https://raw.githubusercontent.com/blackPantherOS/webbased/master/MediaRent/images/mediarent.jpg)
