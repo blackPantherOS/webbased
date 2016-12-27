@@ -1,0 +1,2 @@
+iptables -t nat -A PREROUTING -p tcp -i wlan0 -d 192.168.0.12 --dport 2020 -j DNAT --to 192.168.0.12:80
+iptables -A FORWARD -p tcp -i wlan0 -d 192.168.0.12 --dport 80 -j ACCEPT

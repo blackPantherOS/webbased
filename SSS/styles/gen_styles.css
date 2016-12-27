@@ -1,0 +1,42 @@
+BODY		{
+		background:	#FFFFFF;
+		font-family:	Luxi Sans, Tahoma, Arial, Verdana, Helvetica;
+		font-size:	10;
+		}
+TH.Nav		{	background:	#0000cc;	
+			color:		#ff9900;
+			}
+TH.Menu		{	background:	#3366cc;	
+			color:		#ff9900;
+			}
+A:hover		{	color:		#ff6600;	}
+A.Menu:hover	{	color:		#ff6600;	}
+A.HoMe:hover	{	color:		#ff6600;	}
+A.Menu		{	background:	transparent;
+			color:		#ffcc33;
+			font-family:	Verdana, 
+					Helvetica, Arial;
+			font-size:	6;
+			text-decoration:	shadow;
+			}
+
+A.Menu:visited	{	background:	transparent;
+			color:		#ffcc99;	}
+
+A.HoMe		{	background:	transparent;
+			color:		#ffcc33;
+			font-family:	Verdana, 
+					Helvetica, Arial;
+			text-decoration:	none;
+			}
+
+A.HoMe:visited	{	background:	transparent;
+			color:		#ffcc99;	}
+
+.center {
+	text-align: center;
+	border: 1px solid #A0B8CC;
+	font-family:	Luxi Sans, Tahoma, Arial, Verdana, Helvetica;
+	font-size:	10;
+
+}

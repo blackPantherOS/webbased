@@ -1,0 +1,42 @@
+.frame{	width: 780px;}
+.odd { background-color: #FFFFFF;padding:3px;}
+.outer { background-color: #D9E3EB; padding:3px;}
+.header {
+	background-color: #FFFFFF;
+	text-align: center;
+	border: 1px solid #A0B8CC;
+	padding: 0px;
+	font-size: 12;
+	font-family: "Luxi Sans", "Arial", "Helvetica", "sans-serif";
+	color: #666666;
+}
+.even {
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+th {
+	background-color: #ECF1F5;
+	text-align: left;
+	padding: 3px;
+	color: #799BB7;
+}
+.head {
+	background-color: #F6F8FA;
+	padding: 3px;
+	font-weight: bold;
+}
+.foot {
+	background-color: #F6F8FA;
+	padding: 3px;
+	text-align: center;
+	color: #666666;
+
+}
+.footer {
+	border: 1px solid #A0B8CC;
+	background-color: #F6F8FA;
+	padding: 5px;
+	text-align: center;
+	color: #666666;
+	line-height: 20px;
+}

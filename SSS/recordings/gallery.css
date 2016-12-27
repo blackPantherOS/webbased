@@ -1,0 +1,218 @@
+/* CSS Document */
+body {
+	
+	background-color: #ffffff; /* Defines the color of the background of the entire page */
+/*	margin: 2px auto 0px auto; */
+	padding: 0;
+/*	text-align: center; */
+	font-family: verdana, tahoma, sans-serif;
+}
+.container-wrapper {
+/*	margin: 0px auto 0px auto; */
+	border: 0px solid #D2D2D1; /* This is the very outside border */
+	width: 780px; /* This the border thickness (above) devided by 2 and added to the container width (below) */
+	height: 400px;
+/*	text-align: center;
+	position: relative; */
+}
+.container {
+	width: 780px; /* This is the overall width of the gallery*/
+	margin: 0px auto 0px auto;
+	padding-bottom: 15px;
+	background-color: #FFFFFF; /* This is the backgrund color of the gallery section */
+	border: 1px solid #A0B8CC; /* This is the thin border between the gallery section and the outside border (gives this a semi 3d effect) */
+}
+.script {
+	margin: 0px auto 0px auto;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.script a:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.script a:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.script a:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.script a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.script-row { /* This is only used for the thumbnail listing pages, if you've changed the overall gallery width you might need to adjust this width */
+	text-align: center;
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	font-size: 10px;
+	float: left !important;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.script-row a:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.script-row a:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.script-row a:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.script-row a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #111111;
+	text-decoration: none;
+}
+.nav { /* This is the top navigation section */
+	background-color: #E8E8E8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #666666;
+	margin-bottom: 15px;
+	width: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform:capitalize;
+	background: url(ID_images/grad.gif) repeat-x; /* This image provides the gradient in the background of the navigation section */
+}
+.nav a:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.nav a:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.nav a:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.nav a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.subgal {
+	float: left;
+	margin: 10px 0px 0px 10px;
+}
+.img-shadow { /* This is the image shadow part, you don't really need to edit this */
+	float: left;
+	background: url(ID_images/shadowAlpha.png) no-repeat bottom right !important;
+	background: url(ID_images/shadow.gif) no-repeat bottom right;
+	margin: 10px 0px 0px 10px !important; 
+	margin: 10px 0 0 5px;
+  }
+.img-shadow img {
+	list-style-type: none;
+	display: block;
+	position: relative;
+	border: 1px solid #a9a9a9 !important;
+	margin: -6px 5px 5px -6px;
+	background: #fff !important;
+	padding: 4px !important;
+  }
+.image-shadow {
+	list-style-type: none;
+	background: url(ID_images/shadowAlpha.png) no-repeat bottom right !important;
+	background: url(ID_images/shadow.gif) no-repeat bottom right;
+	margin: 10px 0px 0px 10px !important; 
+	margin: 10px 0 0 5px;
+  }
+.image-shadow img {
+	list-style-type: none;
+	display: block;
+	position: relative;
+	border: 1px solid #a9a9a9 !important;
+	margin: -6px 5px 5px -6px;
+	background: #fff !important;
+	padding: 4px !important;
+  }
+.prevnext {
+	display: inline;
+	padding: 3px 3px 3px 3px;
+	}
+.prevnextcurrent {
+	display: inline;
+	padding: 3px 3px 3px 3px;
+	background-color:#ACCDEB;
+	text-decoration: none;
+	border: 1px solid #666;
+	}
+.prevnext a:link{
+	padding: 3px 3px 3px 3px;
+	background-color:#E8E8E8;
+	text-decoration: none;
+	border: 1px solid #666;
+	}
+.prevnext a:active{
+	padding: 3px 3px 3px 3px;
+	background-color:#999999;
+	text-decoration: none;
+	border: 1px solid #666;
+	}
+.prevnext a:visited{
+	padding: 3px 3px 3px 3px;
+	background-color:#E8E8E8;
+	text-decoration: none;
+	border: 1px solid #666;;
+	}
+.prevnext a:hover{
+	padding: 3px 3px 3px 3px;
+	background-color:#999999;
+	text-decoration: none;
+	border: 1px solid #666;
+	}
+.index-row {
+	text-align: center;
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 730px;
+	font-size: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.index-row a:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.index-row a:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+.index-row a:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.index-row a:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #111111;
+	text-decoration: none;
+}
